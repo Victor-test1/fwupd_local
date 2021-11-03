@@ -1,9 +1,9 @@
 name: Continuous Integration
 on:
   push:
-    branches: [ main ]
+    branches: [ wip/hughsie/lenovo-dock ]
   pull_request:
-    branches: [ main ]
+    branches: [ wip/hughsie/lenovo-dock ]
 
 jobs:
   pre-commit:

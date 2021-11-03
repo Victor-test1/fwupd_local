@@ -19,7 +19,7 @@ struct _FuLenovoDockMcuDevice {
 
 G_DEFINE_TYPE(FuLenovoDockMcuDevice, fu_lenovo_dock_mcu_device, FU_TYPE_HID_DEVICE)
 
-#define FU_LENOVO_DOCK_MCU_DEVICE_TIMEOUT 5000 /* ms */
+#define FU_LENOVO_DOCK_MCU_DEVICE_TIMEOUT 4000 /* ms */
 
 static gboolean
 fu_lenovo_dock_mcu_device_tx(FuLenovoDockMcuDevice *self,

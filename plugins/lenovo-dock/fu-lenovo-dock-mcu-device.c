@@ -11,7 +11,7 @@
 #include "fu-lenovo-dock-dmc-device.h"
 #include "fu-lenovo-dock-firmware.h"
 #include "fu-lenovo-dock-mcu-device.h"
-#define TEST
+
 struct _FuLenovoDockMcuDevice {
 	FuHidDevice parent_instance;
 	gchar *firmware_image_id;
